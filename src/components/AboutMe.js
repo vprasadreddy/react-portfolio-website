@@ -9,7 +9,7 @@ function AboutMe() {
         <div className="container aboutme-container">
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-xs-12 col-sm-12 col-md-6 text-center">
-              <h1 className="welcome-text">Hey there! I'm </h1>
+              <h1 className="welcome-text text-secondary">Hey there! I'm </h1>
               <h1>Prasad</h1>
               <Typed
                 className="lead text-primary"
@@ -20,7 +20,7 @@ function AboutMe() {
               />
               <p className="lead"></p>
             </div>
-            <div>
+            <div className="col-xs-12 col-sm-12 col-md-6 text-center">
               <img
                 src={developer}
                 alt="developer-logo"

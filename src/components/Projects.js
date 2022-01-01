@@ -7,12 +7,12 @@ function Projects() {
   return (
     <>
       <section id="projects">
-        <div className="container projects-container mt-3">
-          <h1 className="text-center">Projects</h1>
+        <h3 className="text-center mt-5">Projects</h3>
+        <div className="projects2-container mt-3">
           <div className="row pb-3 projects-row">
-            <div className="col-xs-12 col-sm-12 col-md-4 mb-3 justify-content-center align-items-center">
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center">
               <div
-                className="card"
+                className="card m-2"
                 style={{ width: "18rem", maxWidth: "18rem" }}
               >
                 <img
@@ -31,8 +31,8 @@ function Projects() {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-4 mb-3 justify-content-center align-items-center">
-              <div className="card" style={{ width: "18rem" }}>
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center">
+              <div className="card m-2" style={{ width: "18rem" }}>
                 <img
                   className="card-img-top"
                   src={project}
@@ -49,8 +49,8 @@ function Projects() {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-4 mb-3 justify-content-center align-items-center">
-              <div className="card" style={{ width: "18rem" }}>
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center">
+              <div className="card m-2" style={{ width: "18rem" }}>
                 <img
                   className="card-img-top"
                   src={project}
@@ -67,8 +67,8 @@ function Projects() {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-4 mb-3 justify-content-center align-items-center">
-              <div className="card" style={{ width: "18rem" }}>
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center">
+              <div className="card m-2" style={{ width: "18rem" }}>
                 <img
                   className="card-img-top"
                   src={project}
@@ -85,8 +85,8 @@ function Projects() {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-4 mb-3 justify-content-center align-items-center">
-              <div className="card" style={{ width: "18rem" }}>
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center">
+              <div className="card m-2" style={{ width: "18rem" }}>
                 <img
                   className="card-img-top"
                   src={project}
@@ -103,8 +103,8 @@ function Projects() {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-4 mb-3 justify-content-center align-items-center">
-              <div className="card" style={{ width: "18rem" }}>
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center">
+              <div className="card m-2" style={{ width: "18rem" }}>
                 <img
                   className="card-img-top"
                   src={project}
