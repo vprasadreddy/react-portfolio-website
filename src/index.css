@@ -1,13 +1,108 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+section {
+  height: 100vh;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.aboutme-container {
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+}
+
+#about-me {
+  min-height: 100vh;
+  width: 100%;
+}
+
+#projects {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background-color: #ecf0f1;
+}
+
+#contact {
+  min-height: 100vh;
+  width: 100%;
+}
+
+nav a.nav-link {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+nav li.nav-item:hover {
+  border-bottom: 0.125rem solid #0275d8;
+}
+
+.typed-text {
+  font-size: 2.5rem;
+}
+
+.welcome-text {
+  font-weight: 300;
+}
+
+:target {
+  padding-top: 70px; /* = to height of navbar */
+  /* margin-top: -70px; */
+}
+
+@media only screen and (min-width: 300px) and (max-width: 770px) {
+  .developer-logo {
+    width: 9rem !important;
+    height: 9rem !important;
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 994px) {
+  .col-md-4 {
+    max-width: 50% !important;
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 767px) {
+  .card {
+    width: 15rem !important;
+  }
+}
+
+@media only screen and (max-width: 569px) {
+  .projects-row {
+    padding-left: 7.5rem !important;
+  }
+}
+
+@media only screen and (max-width: 749px) {
+  .projects-row {
+    padding-left: 7.5rem !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .projects-row {
+    padding-left: 3.75rem !important;
+  }
 }
