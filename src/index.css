@@ -95,7 +95,7 @@ nav li.nav-item:hover {
   }
 }
 
-@media only screen and (max-width: 749px) {
+@media only screen and (min-width: 525px) and (max-width: 749px) {
   .projects-row {
     padding-left: 7.5rem !important;
   }
@@ -104,5 +104,50 @@ nav li.nav-item:hover {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .projects-row {
     padding-left: 3.75rem !important;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .card {
+    width: 15rem !important;
+  }
+}
+
+@media only screen and (min-width: 475px) and (max-width: 524px) {
+  .projects-row {
+    width: 2.75rem !important;
+  }
+}
+
+@media only screen and (min-width: 435px) and (max-width: 474px) {
+  .projects-row {
+    padding-left: 5.5rem !important;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 434px) {
+  .projects-row {
+    padding-left: 4.5rem !important;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 399px) {
+  .projects-row {
+    padding-left: 3.5rem !important;
+  }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 349px) {
+  .projects-row {
+    padding-left: 3rem !important;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 330px) {
+  .projects-row {
+    padding-left: 2.75rem !important;
+  }
+  .card {
+    width: 12.5rem !important;
   }
 }
