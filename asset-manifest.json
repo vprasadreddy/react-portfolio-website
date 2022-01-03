@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio-website/static/css/main.4e8092d7.css",
-    "main.js": "/react-portfolio-website/static/js/main.2851b81b.js",
+    "main.css": "/react-portfolio-website/static/css/main.e4394941.css",
+    "main.js": "/react-portfolio-website/static/js/main.47527224.js",
     "static/js/787.8d4a6804.chunk.js": "/react-portfolio-website/static/js/787.8d4a6804.chunk.js",
     "static/media/developer.png": "/react-portfolio-website/static/media/developer.b83a3c651ea704d04f68.png",
+    "static/media/percentages.png": "/react-portfolio-website/static/media/percentages.a0533d5dc31cf4b1388f.png",
+    "static/media/feedback.png": "/react-portfolio-website/static/media/feedback.68efbbdd8eddb6aa015e.png",
     "static/media/project.png": "/react-portfolio-website/static/media/project.2f2a201ddf7e4fbb8293.png",
     "index.html": "/react-portfolio-website/index.html",
-    "main.4e8092d7.css.map": "/react-portfolio-website/static/css/main.4e8092d7.css.map",
-    "main.2851b81b.js.map": "/react-portfolio-website/static/js/main.2851b81b.js.map",
+    "main.e4394941.css.map": "/react-portfolio-website/static/css/main.e4394941.css.map",
+    "main.47527224.js.map": "/react-portfolio-website/static/js/main.47527224.js.map",
     "787.8d4a6804.chunk.js.map": "/react-portfolio-website/static/js/787.8d4a6804.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e8092d7.css",
-    "static/js/main.2851b81b.js"
+    "static/css/main.e4394941.css",
+    "static/js/main.47527224.js"
   ]
 }
