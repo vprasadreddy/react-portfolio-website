@@ -61,6 +61,11 @@ nav a.nav-link {
   font-size: 0.875rem;
 }
 
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-bottom: 0.125rem solid #0275d8;
+}
+
 nav li.nav-item:hover {
   border-bottom: 0.125rem solid #0275d8;
 }
