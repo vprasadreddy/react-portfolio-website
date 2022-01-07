@@ -12,7 +12,7 @@ function AboutMe() {
               <h1 className="welcome-text text-secondary">Hey there! I'm </h1>
               <h1>Prasad</h1>
               <Typed
-                className="lead text-primary"
+                className="lead text-primary about-me-text"
                 strings={[
                   "I am a SharePoint/React developer. I am passionate about web development.",
                 ]}

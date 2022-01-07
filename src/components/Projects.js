@@ -1,5 +1,6 @@
 import React from "react";
 import developer from "../assests/developer.png";
+import foodrecipeapp from "../assests/foodrecipeapp.png";
 import project from "../assests/project.png";
 import Typed from "react-typed";
 
@@ -17,16 +18,28 @@ function Projects() {
               >
                 <img
                   className="card-img-top"
-                  src={project}
+                  src={foodrecipeapp}
                   alt="Card image cap"
+                  style={{ height: "13rem" }}
                 />
                 <div className="card-body">
                   <p className="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#" className="card-link">
-                    View Project
+                  <a
+                    href="https://react-recipe-search-c90d0.firebaseapp.com/"
+                    className="card-link"
+                    target="_blank"
+                  >
+                    View App
+                  </a>
+                  <a
+                    href="https://github.com/vprasadreddy/react-recipe-search"
+                    className="card-link"
+                    target="_blank"
+                  >
+                    Github Link
                   </a>
                 </div>
               </div>

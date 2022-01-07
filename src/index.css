@@ -15,6 +15,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
 }
+
+h1 {
+  color: #2f3640 !important;
+}
+
+.navbar-text {
+  background-image: linear-gradient(
+    -225deg,
+    #22e1ff 0%,
+    #1d8fe1 48%,
+    #3742fa 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-me-text {
+  background-image: linear-gradient(
+    -225deg,
+    #22e1ff 0%,
+    #1d8fe1 48%,
+    #3742fa 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem !important;
+}
+
 section {
   height: 100vh;
 }
@@ -59,15 +87,25 @@ nav a.nav-link {
   text-transform: uppercase;
   cursor: pointer;
   font-size: 0.875rem;
+  color: #2f3640 !important;
 }
 
-.navbar-nav > li > a.active,
-.navbar-nav > li > a:focus {
+.navbar-nav > li > a.active {
   border-bottom: 0.125rem solid #0275d8;
 }
+
+/* .navbar-nav > li > a:focus */
 
 nav li.nav-item:hover {
-  border-bottom: 0.125rem solid #0275d8;
+  background-image: linear-gradient(
+    -225deg,
+    #22e1ff 0%,
+    #1d8fe1 48%,
+    #3742fa 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem !important;
 }
 
 .typed-text {
@@ -85,8 +123,8 @@ nav li.nav-item:hover {
 
 @media only screen and (min-width: 300px) and (max-width: 770px) {
   .developer-logo {
-    width: 9rem !important;
-    height: 9rem !important;
+    width: 12rem !important;
+    height: 12rem !important;
   }
 }
 
@@ -95,6 +133,11 @@ nav li.nav-item:hover {
   background-color: white;
   border-radius: 0.3125rem;
   padding: 1.25rem;
+}
+
+#comments {
+  resize: none;
+  height: 100px;
 }
 
 @media only screen and (min-width: 701px) and (max-width: 1100px) {

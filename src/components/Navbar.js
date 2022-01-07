@@ -1,10 +1,20 @@
 import React from "react";
+import $ from "jquery";
 
 function Navbar() {
+  $(".navbar-nav a").on("click", function () {
+    // $(".navbar-nav").find("li > a.active").removeClass("active");
+    // $(this).addClass("active");
+
+    $("ul.navbar-nav li a").on("click", function () {
+      $(this).parent().find("li a.active").removeClass("active");
+      $(this).addClass("active");
+    });
+  });
   return (
     <>
       <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-        <a className="navbar-brand" href="#about-me">
+        <a className="navbar-brand navbar-text" href="#about-me">
           Prasad's Portfolio
         </a>
         <button
