@@ -1,6 +1,7 @@
 import React from "react";
 import developer from "../assests/developer.png";
 import Typed from "react-typed";
+import profile from "../assests/profile.png";
 
 function AboutMe() {
   return (
@@ -9,6 +10,18 @@ function AboutMe() {
         <div className="container aboutme-container">
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-xs-12 col-sm-12 col-md-6 text-center">
+              <div class="text-center">
+                <img
+                  src={profile}
+                  className="profile-pic"
+                  alt="profile-pic"
+                  style={{
+                    height: "12rem",
+                    width: "12rem",
+                    borderRadius: "50% !important",
+                  }}
+                />
+              </div>
               <h1 className="welcome-text text-secondary">Hey there! I'm </h1>
               <h1>Prasad</h1>
               <Typed

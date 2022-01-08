@@ -51,6 +51,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.profile-pic {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50% !important;
+}
+
+@media (max-width: 576.98px) {
+  .profile-pic {
+    height: 10rem !important;
+    width: 10rem !important;
+  }
+}
+
 .aboutme-container {
   position: absolute;
   transform: translateX(-50%) translateY(-50%);
