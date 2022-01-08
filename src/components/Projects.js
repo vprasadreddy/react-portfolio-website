@@ -12,11 +12,14 @@ function Projects() {
     <>
       <section id="projects">
         <h3 className="text-center pt-5">Projects</h3>
-        <div className="projects2-container mt-3">
+        <div className="projects-container mt-3">
           <div className="row pb-3 projects-row">
             {projects.map((project) => {
               return (
-                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center">
+                <div
+                  className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center"
+                  key={project.name}
+                >
                   <div
                     className="card project-card m-2"
                     style={{ width: "18rem", maxWidth: "18rem" }}
@@ -28,7 +31,7 @@ function Projects() {
                       style={{ height: "13rem" }}
                     />
                     <div className="card-body">
-                      <h6 class="card-title">{project.name}</h6>
+                      <h6 className="card-title">{project.name}</h6>
                       <p className="card-text">{project.description}</p>
                       <a
                         href={project.applicationurl}

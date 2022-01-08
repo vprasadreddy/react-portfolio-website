@@ -10,7 +10,7 @@ function AboutMe() {
         <div className="container mt-5 aboutme-container">
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-md-6 col-sm-12 col-xs-12 text-center">
-              <div class="text-center">
+              <div className="text-center">
                 <img
                   src={profile}
                   className="profile-pic"
