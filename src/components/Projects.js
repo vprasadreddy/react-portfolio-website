@@ -18,7 +18,7 @@ function Projects() {
               return (
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center">
                   <div
-                    className="card m-2"
+                    className="card project-card m-2"
                     style={{ width: "18rem", maxWidth: "18rem" }}
                   >
                     <img

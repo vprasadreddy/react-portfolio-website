@@ -9,21 +9,17 @@ function AboutMe() {
       <section id="about-me">
         <div className="container aboutme-container">
           <div className="row d-flex justify-content-center align-items-center">
-            <div className="col-xs-12 col-sm-12 col-md-6 text-center">
+            <div className="col-md-6 col-sm-12 col-xs-12 text-center">
               <div class="text-center">
                 <img
                   src={profile}
                   className="profile-pic"
                   alt="profile-pic"
-                  style={{
-                    height: "12rem",
-                    width: "12rem",
-                    borderRadius: "50% !important",
-                  }}
+                  style={{}}
                 />
               </div>
               <h1 className="welcome-text text-secondary">Hey there! I'm </h1>
-              <h1>Prasad</h1>
+              <h1 className="title">Prasad</h1>
               <Typed
                 className="lead text-primary about-me-text"
                 strings={[
@@ -33,7 +29,7 @@ function AboutMe() {
               />
               <p className="lead"></p>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 text-center">
+            <div className="col-md-6 col-sm-12 col-xs-12 text-center">
               <img
                 src={developer}
                 alt="developer-logo"

@@ -142,6 +142,38 @@ nav a.nav-link {
   }
 }
 
+@media only screen and (max-height: 660px) {
+  .profile-pic {
+    width: 10rem !important;
+    height: 10rem !important;
+  }
+  .welcome-text,
+  .title {
+    font-size: 1.25rem !important;
+  }
+  .about-me-text {
+    font-size: 1rem !important;
+  }
+}
+
+@media only screen and (max-height: 670px) {
+  .profile-pic {
+    width: 9rem !important;
+    height: 9rem !important;
+  }
+  .welcome-text,
+  .title {
+    font-size: 1.2rem !important;
+  }
+  .about-me-text {
+    font-size: 0.8rem !important;
+  }
+  .developer-logo {
+    width: 10rem !important;
+    height: 10rem !important;
+  }
+}
+
 #contact .contact-form {
   margin-top: 6.25rem;
   background-color: white;
@@ -176,4 +208,8 @@ nav a.nav-link {
   .skills-container {
     padding-bottom: 3rem !important;
   }
+}
+
+.project-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
