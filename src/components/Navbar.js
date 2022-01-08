@@ -1,12 +1,13 @@
 import React from "react";
 import $ from "jquery";
 
-function Navbar() {
+$(function () {
   /* to close Navbar on NavItem click */
   $(".navbar-nav>li>a").on("click", function () {
     $(".navbar-collapse").collapse("hide");
   });
-
+});
+function Navbar() {
   $(".navbar-nav a").on("click", function () {
     // $(".navbar-nav").find("li > a.active").removeClass("active");
     // $(this).addClass("active");
