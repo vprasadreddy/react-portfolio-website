@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio-website/static/css/main.bae030f7.css",
-    "main.js": "/react-portfolio-website/static/js/main.ce1dc4a9.js",
+    "main.css": "/react-portfolio-website/static/css/main.d67465ca.css",
+    "main.js": "/react-portfolio-website/static/js/main.3af3f89b.js",
     "static/js/787.8d4a6804.chunk.js": "/react-portfolio-website/static/js/787.8d4a6804.chunk.js",
     "static/media/foodrecipeapp.png": "/react-portfolio-website/static/media/foodrecipeapp.7daacdc681167b4a8fdf.png",
+    "static/media/SPFxPnpCarousel.png": "/react-portfolio-website/static/media/SPFxPnpCarousel.ead5acde6fe0858e534b.png",
     "static/media/developer.png": "/react-portfolio-website/static/media/developer.b83a3c651ea704d04f68.png",
+    "static/media/SPFxProjectManagement.png": "/react-portfolio-website/static/media/SPFxProjectManagement.042c6761e3bc58db81f7.png",
     "static/media/percentages.png": "/react-portfolio-website/static/media/percentages.a0533d5dc31cf4b1388f.png",
     "static/media/feedback.png": "/react-portfolio-website/static/media/feedback.68efbbdd8eddb6aa015e.png",
     "static/media/project.png": "/react-portfolio-website/static/media/project.2f2a201ddf7e4fbb8293.png",
     "index.html": "/react-portfolio-website/index.html",
-    "main.bae030f7.css.map": "/react-portfolio-website/static/css/main.bae030f7.css.map",
-    "main.ce1dc4a9.js.map": "/react-portfolio-website/static/js/main.ce1dc4a9.js.map",
+    "main.d67465ca.css.map": "/react-portfolio-website/static/css/main.d67465ca.css.map",
+    "main.3af3f89b.js.map": "/react-portfolio-website/static/js/main.3af3f89b.js.map",
     "787.8d4a6804.chunk.js.map": "/react-portfolio-website/static/js/787.8d4a6804.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bae030f7.css",
-    "static/js/main.ce1dc4a9.js"
+    "static/css/main.d67465ca.css",
+    "static/js/main.3af3f89b.js"
   ]
 }
