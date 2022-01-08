@@ -43,10 +43,6 @@ h1 {
   font-size: 1.5rem !important;
 } */
 
-section {
-  height: 100vh;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -75,6 +71,7 @@ code {
 #about-me {
   min-height: 100vh;
   width: 100%;
+  height: 100%;
 }
 
 #projects {
@@ -108,20 +105,6 @@ nav a.nav-link {
   border-bottom: 0.125rem solid #0275d8;
 }
 
-/* .navbar-nav > li > a:focus */
-
-/* nav li.nav-item:hover {
-  background-image: linear-gradient(
-    -225deg,
-    #22e1ff 0%,
-    #1d8fe1 48%,
-    #3742fa 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 1.5rem !important;
-} */
-
 .typed-text {
   font-size: 2.5rem;
 }
@@ -131,18 +114,48 @@ nav a.nav-link {
 }
 
 :target {
-  padding-top: 70px; /* = to height of navbar */
+  /* = to height of navbar */
+  padding-top: 70px;
   /* margin-top: -70px; */
 }
 
-@media only screen and (min-width: 300px) and (max-width: 770px) {
+@media only screen and (min-width: 300px) and (max-width: 440px) {
   .developer-logo {
     width: 12rem !important;
     height: 12rem !important;
   }
 }
 
-@media only screen and (max-height: 660px) {
+@media only screen and (max-width: 740px) and (max-height: 420px) {
+  #about-me {
+    min-height: 150vh !important;
+  }
+  .aboutme-container {
+    margin-top: 7rem;
+    padding-top: 3srem !important;
+  }
+  .profile-pic {
+    width: 9rem !important;
+    height: 9rem !important;
+  }
+  .welcome-text,
+  .title {
+    font-size: 1.25rem !important;
+  }
+  .about-me-text {
+    font-size: 1rem !important;
+  }
+  .developer-logo {
+    width: 10rem !important;
+    height: 10rem !important;
+  }
+}
+
+@media only screen and (min-width: 741px) and (max-width: 830px) and (max-height: 420px) {
+  .aboutme-container {
+    padding-top: 1.5rem !important;
+    margin-top: 2rem;
+  }
   .profile-pic {
     width: 10rem !important;
     height: 10rem !important;
@@ -154,12 +167,37 @@ nav a.nav-link {
   .about-me-text {
     font-size: 1rem !important;
   }
+  .developer-logo {
+    width: 15rem !important;
+    height: 15rem !important;
+  }
 }
 
-@media only screen and (max-height: 670px) {
+@media only screen and (min-height: 441px) and (max-height: 660px) {
   .profile-pic {
-    width: 9rem !important;
-    height: 9rem !important;
+    width: 12rem !important;
+    height: 12rem !important;
+  }
+  .welcome-text,
+  .title {
+    font-size: 1.25rem !important;
+  }
+  .about-me-text {
+    font-size: 1rem !important;
+  }
+  .developer-logo {
+    width: 10rem !important;
+    height: 10rem !important;
+  }
+}
+
+@media only screen and (min-height: 440px) and (max-height: 670px) {
+  .aboutme-container {
+    padding-top: 2rem !important;
+  }
+  .profile-pic {
+    width: 10rem !important;
+    height: 10rem !important;
   }
   .welcome-text,
   .title {
