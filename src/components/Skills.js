@@ -5,7 +5,7 @@ function Skills() {
   return (
     <>
       <section id="skills">
-        <h3 className="text-center mt-5">Skills</h3>
+        <h3 className="text-center pt-5">Skills</h3>
         <div className="skills-container mt-3">
           <div className="row justify-content-center align-items-center">
             <div className="col xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center">

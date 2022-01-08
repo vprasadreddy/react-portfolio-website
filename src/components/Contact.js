@@ -20,7 +20,7 @@ function Contact() {
   return (
     <React.Fragment>
       <section id="contact">
-        <h3 className="text-center mt-5">Contact Me</h3>
+        <h3 className="text-center pt-5">Contact Me</h3>
         <div className="contactme-container mt-3">
           <div className="row justify-content-center align-items-center">
             <div className="col">
