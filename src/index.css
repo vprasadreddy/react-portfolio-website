@@ -114,7 +114,7 @@ nav a.nav-link {
   }
 }
 
-/* @media only screen and (max-width: 740px) and (max-height: 420px) {
+@media only screen and (max-width: 740px) and (max-height: 420px) {
   #about-me {
     min-height: 150vh !important;
   }
@@ -137,9 +137,9 @@ nav a.nav-link {
     width: 10rem !important;
     height: 10rem !important;
   }
-} */
+}
 
-/* @media only screen and (min-width: 741px) and (max-width: 830px) and (max-height: 420px) {
+@media only screen and (min-width: 741px) and (max-width: 830px) and (max-height: 420px) {
   .aboutme-container {
     padding-top: 1.5rem !important;
     margin-top: 2rem;
@@ -159,7 +159,7 @@ nav a.nav-link {
     width: 15rem !important;
     height: 15rem !important;
   }
-} */
+}
 
 @media only screen and (min-height: 441px) and (max-height: 660px) {
   .profile-pic {
