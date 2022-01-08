@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/react-portfolio-website/static/css/main.d67465ca.css",
-    "main.js": "/react-portfolio-website/static/js/main.3af3f89b.js",
+    "main.css": "/react-portfolio-website/static/css/main.c325ee1f.css",
+    "main.js": "/react-portfolio-website/static/js/main.35d5eeef.js",
     "static/js/787.8d4a6804.chunk.js": "/react-portfolio-website/static/js/787.8d4a6804.chunk.js",
+    "static/media/profile.png": "/react-portfolio-website/static/media/profile.8c6886852cde57ab8685.png",
     "static/media/foodrecipeapp.png": "/react-portfolio-website/static/media/foodrecipeapp.7daacdc681167b4a8fdf.png",
     "static/media/SPFxPnpCarousel.png": "/react-portfolio-website/static/media/SPFxPnpCarousel.ead5acde6fe0858e534b.png",
     "static/media/developer.png": "/react-portfolio-website/static/media/developer.b83a3c651ea704d04f68.png",
@@ -11,12 +12,12 @@
     "static/media/feedback.png": "/react-portfolio-website/static/media/feedback.68efbbdd8eddb6aa015e.png",
     "static/media/project.png": "/react-portfolio-website/static/media/project.2f2a201ddf7e4fbb8293.png",
     "index.html": "/react-portfolio-website/index.html",
-    "main.d67465ca.css.map": "/react-portfolio-website/static/css/main.d67465ca.css.map",
-    "main.3af3f89b.js.map": "/react-portfolio-website/static/js/main.3af3f89b.js.map",
+    "main.c325ee1f.css.map": "/react-portfolio-website/static/css/main.c325ee1f.css.map",
+    "main.35d5eeef.js.map": "/react-portfolio-website/static/js/main.35d5eeef.js.map",
     "787.8d4a6804.chunk.js.map": "/react-portfolio-website/static/js/787.8d4a6804.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d67465ca.css",
-    "static/js/main.3af3f89b.js"
+    "static/css/main.c325ee1f.css",
+    "static/js/main.35d5eeef.js"
   ]
 }
