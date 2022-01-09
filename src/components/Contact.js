@@ -2,12 +2,24 @@ import React, { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { FaEyeSlash, FaEye } from "react-icons/fa";
 import feedback from "../assests/feedback.png";
+import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 function Contact() {
   const [charactersCount, setCharactersCount] = useState(500);
+  const [contactFormData, setContactFormData] = useState({
+    name: "",
+    email: "",
+    comments: "",
+  });
+
+  let { name, email, comments } = contactFormData;
 
   const handleInputChange = (e) => {
-    setCharactersCount(500 - e.target.value.length);
+    setContactFormData({ ...contactFormData, [e.target.name]: e.target.value });
+    if (e.target.name == "comments") {
+      setCharactersCount(500 - e.target.value.length);
+    }
   };
   const {
     register,
@@ -15,7 +27,37 @@ function Contact() {
     watch,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data, e) => {
+    //console.log(data, e);
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        e.target,
+        process.env.REACT_APP_USER_ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          Swal.fire(
+            "Email sent successfully!",
+            "Thank you for your message. I'll get back to you shortly.",
+            "success"
+          );
+        },
+        (error) => {
+          console.log(error.text);
+          Swal.fire(
+            "Sorry",
+            "Something went wrong. Please try again.",
+            "error"
+          );
+        }
+      );
+  };
+
+  const onError = (errors, e) => console.log(errors, e);
 
   return (
     <React.Fragment>
@@ -24,7 +66,10 @@ function Contact() {
         <div className="contactme-container mt-3">
           <div className="row justify-content-center align-items-center">
             <div className="col">
-              <form onSubmit={handleSubmit(onSubmit)}>
+              <form
+                onSubmit={handleSubmit(onSubmit, onError)}
+                autoComplete="off"
+              >
                 <div className="m-auto w-25 contact-form">
                   <div className="form-group">
                     <label htmlFor="name">Name</label>
@@ -32,8 +77,11 @@ function Contact() {
                       type="text"
                       className="form-control"
                       id="name"
+                      name="name"
+                      value={name}
                       placeholder="Enter Name"
                       {...register("name", { required: true })}
+                      onChange={handleInputChange}
                     />
                     {errors.name && (
                       <span className="form-text small text-danger">
@@ -47,9 +95,12 @@ function Contact() {
                       type="email"
                       className="form-control"
                       id="email"
+                      name="email"
+                      value={email}
                       aria-describedby="emailHelp"
                       placeholder="Enter email"
                       {...register("email", { required: true })}
+                      onChange={handleInputChange}
                     />
                     <small id="emailHelp" className="form-text text-muted">
                       I'll never share your email with anyone else.
@@ -65,6 +116,8 @@ function Contact() {
                     <textarea
                       className="form-control"
                       id="comments"
+                      name="comments"
+                      value={comments}
                       placeholder="Enter comments"
                       {...register("comments", { required: true })}
                       maxLength="500"
@@ -82,9 +135,13 @@ function Contact() {
                       </span>
                     )}
                   </div>
-                  <button type="submit" className="btn btn-primary">
-                    Submit
-                  </button>
+                  <div className="form-group">
+                    <input
+                      type="submit"
+                      name="submit"
+                      className="btn btn-primary"
+                    />
+                  </div>
                 </div>
               </form>
             </div>

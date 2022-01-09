@@ -2,6 +2,7 @@ import React from "react";
 import developer from "../assests/developer.png";
 import Typed from "react-typed";
 import profile from "../assests/profile.png";
+import "animate.css";
 
 function AboutMe() {
   return (
@@ -10,7 +11,7 @@ function AboutMe() {
         <div className="container mt-5 aboutme-container">
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-md-6 col-sm-12 col-xs-12 text-center">
-              <div className="text-center">
+              <div className="text-center animate__animated animate__fadeInDown animate__slow">
                 <img
                   src={profile}
                   className="profile-pic"
@@ -29,7 +30,7 @@ function AboutMe() {
               />
               <p className="lead"></p>
             </div>
-            <div className="col-md-6 col-sm-12 col-xs-12 text-center">
+            <div className="col-md-6 col-sm-12 col-xs-12 text-center animate__animated animate__fadeInUp animate__slow">
               <img
                 src={developer}
                 alt="developer-logo"
