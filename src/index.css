@@ -82,6 +82,10 @@ code {
   background-color: #ecf0f1;
 }
 
+.projects-image {
+  object-fit: cover;
+}
+
 nav a.nav-link {
   text-transform: uppercase;
   cursor: pointer;

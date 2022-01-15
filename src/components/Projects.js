@@ -25,7 +25,7 @@ function Projects() {
                     style={{ width: "18rem", maxWidth: "18rem" }}
                   >
                     <img
-                      className="card-img-top"
+                      className="card-img-top projects-image"
                       src={project.image}
                       alt="Card image cap"
                       style={{ height: "13rem" }}
