@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio-website/static/css/main.a4b1742b.css",
-    "main.js": "/react-portfolio-website/static/js/main.14e39d08.js",
-    "static/js/787.8d4a6804.chunk.js": "/react-portfolio-website/static/js/787.8d4a6804.chunk.js",
-    "static/media/profile.png": "/react-portfolio-website/static/media/profile.8c6886852cde57ab8685.png",
-    "static/media/foodrecipeapp.png": "/react-portfolio-website/static/media/foodrecipeapp.7daacdc681167b4a8fdf.png",
-    "static/media/SPFxPnpCarousel.png": "/react-portfolio-website/static/media/SPFxPnpCarousel.ead5acde6fe0858e534b.png",
-    "static/media/developer.png": "/react-portfolio-website/static/media/developer.b83a3c651ea704d04f68.png",
-    "static/media/SPFxProjectManagement.png": "/react-portfolio-website/static/media/SPFxProjectManagement.042c6761e3bc58db81f7.png",
-    "static/media/percentages.png": "/react-portfolio-website/static/media/percentages.a0533d5dc31cf4b1388f.png",
-    "static/media/feedback.png": "/react-portfolio-website/static/media/feedback.68efbbdd8eddb6aa015e.png",
-    "static/media/project.png": "/react-portfolio-website/static/media/project.2f2a201ddf7e4fbb8293.png",
-    "index.html": "/react-portfolio-website/index.html",
-    "main.a4b1742b.css.map": "/react-portfolio-website/static/css/main.a4b1742b.css.map",
-    "main.14e39d08.js.map": "/react-portfolio-website/static/js/main.14e39d08.js.map",
-    "787.8d4a6804.chunk.js.map": "/react-portfolio-website/static/js/787.8d4a6804.chunk.js.map"
+    "main.css": "/react-portfolio-website/static/css/main.e2825952.css",
+    "main.js": "/react-portfolio-website/static/js/main.94026c2a.js",
+    "static/js/27.48919a85.chunk.js": "/react-portfolio-website/static/js/27.48919a85.chunk.js",
+    "static/media/profile.png": "/react-portfolio-website/static/media/profile.56837a73f6b6f5dddcbd.png",
+    "static/media/foodrecipeapp.png": "/react-portfolio-website/static/media/foodrecipeapp.97a77034062740179de6.png",
+    "static/media/SPFxPnpCarousel.png": "/react-portfolio-website/static/media/SPFxPnpCarousel.376db418007dff66f3a3.png",
+    "static/media/SPFxProjectManagement.png": "/react-portfolio-website/static/media/SPFxProjectManagement.0039f30963b6429aee1d.png",
+    "static/media/project.png": "/react-portfolio-website/static/media/project.a3bd36105c29699d4e5e.png",
+    "static/media/developer.png": "/react-portfolio-website/static/media/developer.f3c2e24a8774f95aca0b.png",
+    "static/media/percentages.png": "/react-portfolio-website/static/media/percentages.b73f373f3b98fe6641ea.png",
+    "static/media/feedback.png": "/react-portfolio-website/static/media/feedback.19513c6a50d1ecb93682.png",
+    "index.html": "/react-portfolio-website/index.html"
   },
   "entrypoints": [
-    "static/css/main.a4b1742b.css",
-    "static/js/main.14e39d08.js"
+    "static/css/main.e2825952.css",
+    "static/js/main.94026c2a.js"
   ]
 }
