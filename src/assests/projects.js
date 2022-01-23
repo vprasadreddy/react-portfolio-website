@@ -1,6 +1,7 @@
 import developer from "../assests/developer.png";
 import foodrecipeapp from "../assests/foodrecipeapp.png";
 import project from "../assests/project.png";
+import CoursesDasboard from "../assests/CoursesDasboard.png";
 import SPFxPnpCarousel from "../assests/SPFxPnpCarousel.png";
 import SPFxProjectManagement from "../assests/SPFxProjectManagement.png";
 
@@ -14,20 +15,20 @@ export const projects = [
     githuburl: "https://github.com/vprasadreddy/react-recipe-search",
   },
   {
-    name: "CRUD Application using React",
+    name: "Course Enrollment CRUD Application",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    image: require("../assests/project.png"),
-    applicationurl: "",
-    githuburl: "",
+    image: require("../assests/CoursesDasboard.png"),
+    applicationurl: "https://react-course-enrollment-crud.herokuapp.com",
+    githuburl: "https://github.com/vprasadreddy/react-course-enrollment-crud-application",
   },
   {
-    name: "React Application",
+    name: "React Firebase CRUD",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
     image: require("../assests/project.png"),
-    applicationurl: "",
-    githuburl: "",
+    applicationurl: "https://react-crud-4ffce.web.app",
+    githuburl: "https://github.com/vprasadreddy/react-firebase-crud",
   },
   {
     name: "SPFx PnP Carousel",
@@ -39,11 +40,11 @@ export const projects = [
     githuburl: "https://github.com/vprasadreddy/spfx-pnpcarousel-with-react",
   },
   {
-    name: "ss",
+    name: "jQuery Datatable view using JSLink/CSR",
     description: "",
     image: require("../assests/project.png"),
-    applicationurl: "",
-    githuburl: "",
+    applicationurl: "https://github.com/vprasadreddy/SharePoint-jQuery-DataTables-JSLink-CSR",
+    githuburl: "https://github.com/vprasadreddy/SharePoint-jQuery-DataTables-JSLink-CSR",
   },
   {
     name: "SPFx Project Management Application",
