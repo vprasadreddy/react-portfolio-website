@@ -1,10 +1,3 @@
-import developer from "../assests/developer.png";
-import foodrecipeapp from "../assests/foodrecipeapp.png";
-import project from "../assests/project.png";
-import CoursesDasboard from "../assests/CoursesDasboard.png";
-import SPFxPnpCarousel from "../assests/SPFxPnpCarousel.png";
-import SPFxProjectManagement from "../assests/SPFxProjectManagement.png";
-
 export const projects = [
   {
     name: " Recipe Search Application using React",
@@ -20,13 +13,14 @@ export const projects = [
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
     image: require("../assests/CoursesDasboard.png"),
     applicationurl: "https://react-course-enrollment-crud.herokuapp.com",
-    githuburl: "https://github.com/vprasadreddy/react-course-enrollment-crud-application",
+    githuburl:
+      "https://github.com/vprasadreddy/react-course-enrollment-crud-application",
   },
   {
     name: "React Firebase CRUD",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    image: require("../assests/project.png"),
+    image: require("../assests/ReactFirebaseCrud.png"),
     applicationurl: "https://react-crud-4ffce.web.app",
     githuburl: "https://github.com/vprasadreddy/react-firebase-crud",
   },
@@ -42,9 +36,11 @@ export const projects = [
   {
     name: "jQuery Datatable view using JSLink/CSR",
     description: "",
-    image: require("../assests/project.png"),
-    applicationurl: "https://github.com/vprasadreddy/SharePoint-jQuery-DataTables-JSLink-CSR",
-    githuburl: "https://github.com/vprasadreddy/SharePoint-jQuery-DataTables-JSLink-CSR",
+    image: require("../assests/AdvancedViewSearch.png"),
+    applicationurl:
+      "https://github.com/vprasadreddy/SharePoint-jQuery-DataTables-JSLink-CSR",
+    githuburl:
+      "https://github.com/vprasadreddy/SharePoint-jQuery-DataTables-JSLink-CSR",
   },
   {
     name: "SPFx Project Management Application",

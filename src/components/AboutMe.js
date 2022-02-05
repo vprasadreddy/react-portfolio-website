@@ -28,7 +28,11 @@ function AboutMe() {
                 ]}
                 typeSpeed={40}
               />
-              <p className="lead"></p>
+              <div className="row d-flex justify-content-center align-items-center">
+                <button className="btn btn-primary m-1">hel</button>
+                <button className="btn btn-primary m-1">hel</button>
+                <button className="btn btn-primary m-1">hel</button>
+              </div>
             </div>
             <div className="col-md-6 col-sm-12 col-xs-12 text-center animate__animated animate__fadeInUp animate__slow">
               <img
