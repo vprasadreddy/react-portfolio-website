@@ -2,7 +2,12 @@ import React from "react";
 import developer from "../assests/developer.png";
 import Typed from "react-typed";
 import profile from "../assests/profile.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import "animate.css";
+import linkedin from "../assests/linkedin.png";
+import github from "../assests/github.png";
+import csharpcorner from "../assests/csharpcorner.jpeg";
 
 function AboutMe() {
   return (
@@ -29,9 +34,30 @@ function AboutMe() {
                 typeSpeed={40}
               />
               <div className="row d-flex justify-content-center align-items-center">
-                <button className="btn btn-primary m-1">hel</button>
-                <button className="btn btn-primary m-1">hel</button>
-                <button className="btn btn-primary m-1">hel</button>
+                <a
+                  className="m-2"
+                  href="https://www.linkedin.com/in/varaprasadreddyj/"
+                  target="_blank"
+                  title="LinkedIn"
+                >
+                  <img src={linkedin} className="social-handles" />
+                </a>
+                <a
+                  className="m-2"
+                  href="https://github.com/vprasadreddy"
+                  target="_blank"
+                  title="Github"
+                >
+                  <img src={github} className="social-handles" />
+                </a>
+                <a
+                  className="m-2"
+                  href="https://www.c-sharpcorner.com/members/varaprasad-reddy7"
+                  target="_blank"
+                  title="C# Corner"
+                >
+                  <img src={csharpcorner} className="social-handles" />
+                </a>
               </div>
             </div>
             <div className="col-md-6 col-sm-12 col-xs-12 text-center animate__animated animate__fadeInUp animate__slow">
