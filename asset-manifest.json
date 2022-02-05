@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio-website/static/css/main.e2825952.css",
-    "main.js": "/react-portfolio-website/static/js/main.161b7836.js",
+    "main.css": "/react-portfolio-website/static/css/main.03ae68c9.css",
+    "main.js": "/react-portfolio-website/static/js/main.277592a2.js",
     "static/js/27.48919a85.chunk.js": "/react-portfolio-website/static/js/27.48919a85.chunk.js",
     "static/media/profile.png": "/react-portfolio-website/static/media/profile.56837a73f6b6f5dddcbd.png",
     "static/media/foodrecipeapp.png": "/react-portfolio-website/static/media/foodrecipeapp.97a77034062740179de6.png",
@@ -10,14 +10,17 @@
     "static/media/CoursesDasboard.png": "/react-portfolio-website/static/media/CoursesDasboard.5d86bb21df6e92af4d1a.png",
     "static/media/SPFxProjectManagement.png": "/react-portfolio-website/static/media/SPFxProjectManagement.0039f30963b6429aee1d.png",
     "static/media/ReactFirebaseCrud.png": "/react-portfolio-website/static/media/ReactFirebaseCrud.d500f1b7fe1e426c9938.png",
+    "static/media/csharpcorner.jpeg": "/react-portfolio-website/static/media/csharpcorner.be9eea833c33864f29b8.jpeg",
     "static/media/project.png": "/react-portfolio-website/static/media/project.a3bd36105c29699d4e5e.png",
+    "static/media/github.png": "/react-portfolio-website/static/media/github.39ceaeb6ef05d8dfd487.png",
     "static/media/developer.png": "/react-portfolio-website/static/media/developer.f3c2e24a8774f95aca0b.png",
     "static/media/percentages.png": "/react-portfolio-website/static/media/percentages.b73f373f3b98fe6641ea.png",
     "static/media/feedback.png": "/react-portfolio-website/static/media/feedback.19513c6a50d1ecb93682.png",
+    "static/media/linkedin.png": "/react-portfolio-website/static/media/linkedin.7c699ecf90f007b5d832.png",
     "index.html": "/react-portfolio-website/index.html"
   },
   "entrypoints": [
-    "static/css/main.e2825952.css",
-    "static/js/main.161b7836.js"
+    "static/css/main.03ae68c9.css",
+    "static/js/main.277592a2.js"
   ]
 }
