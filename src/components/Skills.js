@@ -95,7 +95,7 @@ function Skills() {
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  6.5/10
+                  7/10
                 </div>
               </div>
               <label htmlFor="exampleInputEmail1">Node/Express JS</label>
@@ -108,7 +108,7 @@ function Skills() {
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  6/10
+                  7/10
                 </div>
               </div>
               <label htmlFor="exampleInputEmail1">
