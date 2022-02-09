@@ -90,7 +90,7 @@ function Skills() {
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  style={{ width: "65%", backgroundColor: "#576574" }}
+                  style={{ width: "70%", backgroundColor: "#576574" }}
                   aria-valuenow="25"
                   aria-valuemin="0"
                   aria-valuemax="100"
@@ -103,7 +103,7 @@ function Skills() {
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  style={{ width: "60%", backgroundColor: "#c0392b" }}
+                  style={{ width: "70%", backgroundColor: "#c0392b" }}
                   aria-valuenow="25"
                   aria-valuemin="0"
                   aria-valuemax="100"
