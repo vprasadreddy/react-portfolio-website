@@ -39,15 +39,20 @@ function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          //console.log(result.text);
           Swal.fire(
             "Email sent successfully!",
             "Thank you for your message. I'll get back to you shortly.",
             "success"
           );
+          setContactFormData({
+            name: "",
+            email: "",
+            comments: "",
+          });
         },
         (error) => {
-          console.log(error.text);
+          //console.log(error.text);
           Swal.fire(
             "Sorry",
             "Something went wrong. Please try again.",
