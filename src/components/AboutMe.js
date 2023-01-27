@@ -29,7 +29,7 @@ function AboutMe() {
               <Typed
                 className="lead text-primary about-me-text"
                 strings={[
-                  "I am a SharePoint/React developer. I am passionate about web development.",
+                  "I am a SharePoint/React/Azure DevOps Engineer. I am passionate about web development and automation.",
                 ]}
                 typeSpeed={40}
               />

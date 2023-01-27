@@ -12,7 +12,7 @@ export const projects = [
     description:
       "Used ReactJS for Frontend, NodeJS & Express for Backend, MongoDB for database.",
     image: require("../assests/CoursesDasboard.png"),
-    applicationurl: "https://react-course-enrollment-crud.herokuapp.com",
+    applicationurl: "https://react-course-enrollment.web.app/",
     githuburl:
       "https://github.com/vprasadreddy/react-course-enrollment-crud-application",
   },
