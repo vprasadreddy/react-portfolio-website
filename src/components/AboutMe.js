@@ -1,7 +1,7 @@
 import React from "react";
 import developer from "../assests/developer.png";
 import Typed from "react-typed";
-import profile from "../assests/profile.png";
+import profile from "../assests/profile.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import "animate.css";
