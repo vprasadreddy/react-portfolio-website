@@ -1,11 +1,6 @@
 import React from "react";
-import developer from "../assests/developer.png";
-import foodrecipeapp from "../assests/foodrecipeapp.png";
-import project from "../assests/project.png";
-import SPFxPnpCarousel from "../assests/SPFxPnpCarousel.png";
-import SPFxProjectManagement from "../assests/SPFxProjectManagement.png";
 import Typed from "react-typed";
-import { projects } from "../assests/projects";
+import { projects } from "../assets/projects";
 
 function Projects() {
   return (
@@ -17,12 +12,12 @@ function Projects() {
             {projects.map((project) => {
               return (
                 <div
-                  className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center"
+                  className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center"
                   key={project.name}
                 >
                   <div
-                    className="card project-card m-2"
-                    style={{ width: "18rem", maxWidth: "18rem" }}
+                    className="card project-card m-4"
+                    style={{ width: "30rem", maxWidth: "30rem" }}
                   >
                     <img
                       className="card-img-top projects-image"

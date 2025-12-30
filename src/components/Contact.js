@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { FaEyeSlash, FaEye } from "react-icons/fa";
-import feedback from "../assests/feedback.png";
+import feedback from "../assets/feedback.png";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 

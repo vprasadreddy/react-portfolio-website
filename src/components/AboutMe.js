@@ -1,13 +1,13 @@
 import React from "react";
-import developer from "../assests/developer.png";
+import developer from "../assets/developer.png";
 import Typed from "react-typed";
-import profile from "../assests/profile.jpg";
+import profile from "../assets/profile.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import "animate.css";
-import linkedin from "../assests/linkedin.png";
-import github from "../assests/github.png";
-import csharpcorner from "../assests/csharpcorner.jpeg";
+import linkedin from "../assets/linkedin.png";
+import github from "../assets/github.png";
+import csharpcorner from "../assets/csharpcorner.jpeg";
 
 function AboutMe() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import percentages from "../assests/percentages.png";
+import percentages from "../assets/percentages.png";
 
 function Skills() {
   return (
@@ -20,20 +20,20 @@ function Skills() {
               className="col xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12"
               style={{ maxWidth: "50%" }}
             >
-              <label htmlFor="exampleInputEmail1">HTML</label>
+              <label htmlFor="exampleInputEmail1">Azure</label>
               <div className="progress">
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  style={{ width: "90%", backgroundColor: "#74b9ff" }}
+                  style={{ width: "85%", backgroundColor: "#009432" }}
                   aria-valuenow="25"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  9/10
+                  8.5/10
                 </div>
               </div>
-              <label htmlFor="exampleInputEmail1">CSS/Bootstrap</label>
+              <label htmlFor="exampleInputEmail1">Bicep</label>
               <div className="progress">
                 <div
                   className="progress-bar"
@@ -46,33 +46,46 @@ function Skills() {
                   7/10
                 </div>
               </div>
-              <label htmlFor="exampleInputEmail1">JavaScript</label>
+              <label htmlFor="exampleInputEmail1">Azure YAML Pipelines</label>
               <div className="progress">
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  style={{ width: "70%", backgroundColor: "#fdcb6e" }}
+                  style={{ width: "80%", backgroundColor: "#fdcb6e" }}
                   aria-valuenow="25"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  7/10
+                  8/10
                 </div>
               </div>
-              <label htmlFor="exampleInputEmail1">jQuery</label>
+              <label htmlFor="exampleInputEmail1">Terraform</label>
               <div className="progress">
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  style={{ width: "70%", backgroundColor: "#00b894" }}
+                  style={{ width: "80%", backgroundColor: "#74b9ff" }}
                   aria-valuenow="25"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  7/10
+                  8/10
                 </div>
               </div>
-              <label htmlFor="exampleInputEmail1">React</label>
+              <label htmlFor="exampleInputEmail1">GitHub Actions</label>
+              <div className="progress">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  style={{ width: "75%", backgroundColor: "#00b894" }}
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  7.5/10
+                </div>
+              </div>
+              <label htmlFor="exampleInputEmail1">Jenkins</label>
               <div className="progress">
                 <div
                   className="progress-bar"
@@ -85,7 +98,7 @@ function Skills() {
                   7/10
                 </div>
               </div>
-              <label htmlFor="exampleInputEmail1">MongoDB</label>
+              <label htmlFor="exampleInputEmail1">Docker</label>
               <div className="progress">
                 <div
                   className="progress-bar"
@@ -98,7 +111,7 @@ function Skills() {
                   7/10
                 </div>
               </div>
-              <label htmlFor="exampleInputEmail1">Node/Express JS</label>
+              <label htmlFor="exampleInputEmail1">Kubernetes</label>
               <div className="progress">
                 <div
                   className="progress-bar"
@@ -109,37 +122,6 @@ function Skills() {
                   aria-valuemax="100"
                 >
                   7/10
-                </div>
-              </div>
-              <label htmlFor="exampleInputEmail1">
-                SharePoint(2010, 2013), Nintex Forms & Workflows, SharePoint
-                Migration
-              </label>
-              <div className="progress">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  style={{ width: "95%", backgroundColor: "#2980b9" }}
-                  aria-valuenow="25"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                  9.5/10
-                </div>
-              </div>
-              <label htmlFor="exampleInputEmail1">
-                SPFx, M365, SharePoint Online, Power Platform
-              </label>
-              <div className="progress">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  style={{ width: "85%", backgroundColor: "#009432" }}
-                  aria-valuenow="25"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                  8.5/10
                 </div>
               </div>
             </div>

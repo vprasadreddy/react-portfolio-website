@@ -97,7 +97,7 @@ code {
 }
 
 .projects-image {
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .social-handles {
